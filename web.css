@@ -16,3 +16,9 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#hello{
+    color: white;
+    font-size: 700%;
+    font-family: 'Lobster', cursive;
+}
