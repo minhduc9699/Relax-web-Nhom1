@@ -75,6 +75,7 @@ body, html {
     background: none;
     border: none;
     color: gray;
+    opacity: 0;
 }
 
 .size {

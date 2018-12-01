@@ -1,5 +1,8 @@
 var DOMhello = document.getElementById('hello');
-console.log(DOMhello);
+var DOMbtn = document.getElementsByClassName('btnn');
+// console.log(DOMhello);
+console.log(DOMbtn);
+
 
 function Text1() {
     DOMhello.classList.remove('fadeInRight');
@@ -12,8 +15,14 @@ setTimeout(function(){
         DOMhello.innerText = "It seems that you are...";
         DOMhello.classList.remove('fadeOut');
         DOMhello.classList.add('fadeInRight');
-    }, 4000)
-}, 4000)
+        setTimeout(function(){
+            for (var i = 0; i < DOMbtn.length; i ++) {
+                DOMbtn[i].style.opacity = "1";
+            }
+            
+        }, 2000)
+    }, 1000)
+}, 1000)
 
 
 
