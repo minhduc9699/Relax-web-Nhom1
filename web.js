@@ -1,5 +1,10 @@
-zconsole.log(DOMhello);
-setTimeout(function(){
+var DOMhello = document.getElementById('hello');
+var DOMbtn = document.getElementsByClassName('btnn');
+// console.log(DOMhello);
+console.log(DOMbtn);
+
+
+function Text1() {
     DOMhello.classList.remove('fadeInRight');
     DOMhello.classList.add('fadeOut');
 }
@@ -24,8 +29,3 @@ setTimeout(function(){
         }, 4000)
     }, 2000)
 }, 3000)
-
-
-
-
-
