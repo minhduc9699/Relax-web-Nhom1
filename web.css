@@ -9,23 +9,41 @@ body, html {
     cursor: pointer;
     background: rgb(140, 104, 150);
     color:rgb(98, 145, 197);
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+
+
 }
 #btn2:hover {
     cursor: pointer;
     background: rgb(154,89,89);
     color:rgb(71,18,18);
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+
+
     ;
 }
 #btn3:hover {
     cursor: pointer;
     background: rgb(12,13,73);
     color:rgb(42,59,144);
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+
     ;
 }
 #btn4:hover {
     cursor: pointer;
     background: rgb(215,185,99);
     color:rgb(253,239,239);
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+
 }
 #bg{
     /* The image used */
@@ -51,6 +69,7 @@ body, html {
     font-size: 350%;
     font-family: "Courier New", Courier, monospace;
 }
+
 
 .btnn {
     background: none;
