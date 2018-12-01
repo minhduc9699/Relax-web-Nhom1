@@ -3,6 +3,13 @@ body, html {
     height: 100%;
     margin: 0;
 }
+
+#btn1:hover {
+    cursor: pointer;
+    background: rgb(140, 104, 150);
+    color:rgb(98, 145, 197);
+}
+
 #bg{
     /* The image used */
     background-image: url("https://cdn.pixabay.com/photo/2015/09/02/12/30/foot-bridge-918476_960_720.jpg");
