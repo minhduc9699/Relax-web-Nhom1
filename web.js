@@ -17,12 +17,20 @@ setTimeout(function(){
         DOMhello.classList.add('fadeInRight');
         setTimeout(function(){
             for (var i = 0; i < DOMbtn.length; i ++) {
-                DOMbtn[i].style.opacity = "1";
-                DOMbtn[i].classList.add('delay-2s')
+                var DOMbtnn = DOMbtn[i];
+                DOMbtnn.style.opacity = "1";
+                DOMbtnn.addEventListener('click', function(e){
+                    console.log(e.target.id);
+                    DOMbtnID = document.getElementById(e.target.id);
+                    DOMbtnID.style.height = "100%";
+                    DOMbtnID.style.width = "100%";
+                })
             }
         }, 4000)
     }, 2000)
 }, 3000)
+
+
 
 
 
