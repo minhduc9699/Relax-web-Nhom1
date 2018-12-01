@@ -11,7 +11,8 @@ body, html {
     color:rgb(98, 145, 197);
     height: 200px;
     width: 400px;
-    border-radius: 6px;
+    border: 1px solid black;
+
 
 }
 #btn2:hover {
@@ -20,7 +21,8 @@ body, html {
     color:rgb(71,18,18);
     height: 200px;
     width: 400px;
-    border-radius: 6px;
+    border: 1px solid black;
+
 
     ;
 }
@@ -30,7 +32,7 @@ body, html {
     color:rgb(42,59,144);
     height: 200px;
     width: 400px;
-    border-radius: 6px;
+    border: 1px solid black;
 
     ;
 }
@@ -40,7 +42,8 @@ body, html {
     color:rgb(253,239,239);
     height: 200px;
     width: 400px;
-    border-radius: 6px;
+    border: 1px solid black;
+
 }
 #bg{
     /* The image used */
@@ -66,7 +69,6 @@ body, html {
     font-size: 350%;
     font-family: "Courier New", Courier, monospace;
 }
-
 
 
 .btnn {
