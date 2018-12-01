@@ -20,10 +20,11 @@ setTimeout(function(){
                 var DOMbtnn = DOMbtn[i];
                 DOMbtnn.style.opacity = "1";
                 DOMbtnn.addEventListener('click', function(e){
-                    console.log(e.target.id);
+                    console.log(e.target);
                     DOMbtnID = document.getElementById(e.target.id);
                     DOMbtnID.style.height = "100%";
                     DOMbtnID.style.width = "100%";
+                    
                 })
             }
         }, 4000)
