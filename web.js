@@ -24,7 +24,7 @@ setTimeout(function(){
                     DOMbtnID = document.getElementById(e.target.id);
                     DOMbtnID.style.height = "100%";
                     DOMbtnID.style.width = "100%";
-                    
+    
                 })
             }
         }, 4000)
