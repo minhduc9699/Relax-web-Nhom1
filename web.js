@@ -1,7 +1,19 @@
 var DOMhello = document.getElementById('hello');
 console.log(DOMhello);
-setTimeout(function(){
+
+function Text1() {
     DOMhello.classList.remove('fadeInRight');
     DOMhello.classList.add('fadeOut');
-    DOMhello.style.left = '50%';
-}, 2000)
+}
+
+setTimeout(function(){
+    Text1();
+    setTimeout(function(){
+        DOMhello.innerText = "It seems that you are...";
+        DOMhello.classList.remove('fadeOut');
+        DOMhello.classList.add('fadeInRight');
+    }, 4000)
+}, 4000)
+
+
+
