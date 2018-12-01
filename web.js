@@ -18,11 +18,11 @@ setTimeout(function(){
         setTimeout(function(){
             for (var i = 0; i < DOMbtn.length; i ++) {
                 DOMbtn[i].style.opacity = "1";
+                DOMbtn[i].classList.add('delay-2s')
             }
-            
-        }, 2000)
-    }, 1000)
-}, 1000)
+        }, 4000)
+    }, 2000)
+}, 3000)
 
 
 
