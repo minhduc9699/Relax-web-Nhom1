@@ -15,14 +15,19 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 #hello{
     color: white;
     font-size: 350%;
     font-family: "Courier New", Courier, monospace;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation-duration: 3s;
 }
-
 .btnn {
     background: none;
     border: none;
