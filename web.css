@@ -7,20 +7,20 @@ body, html {
 
 #btn1:hover {
     cursor: pointer;
-    background: rgb(140, 104, 150);
+    background: rgba(140, 104, 150, 0.5);
     color:rgb(98, 145, 197);
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 300px;
     border: 1px solid black;
 
 
 }
 #btn2:hover {
     cursor: pointer;
-    background: rgb(154,89,89);
+    background: rgba(154,89,89, 0.5);
     color:rgb(71,18,18);
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 300px;
     border: 1px solid black;
 
 
@@ -28,20 +28,20 @@ body, html {
 }
 #btn3:hover {
     cursor: pointer;
-    background: rgb(12,13,73);
+    background: rgba(12,13,73, 0.5);
     color:rgb(42,59,144);
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 300px;
     border: 1px solid black;
 
     ;
 }
 #btn4:hover {
     cursor: pointer;
-    background: rgb(215,185,99);
+    background: rgba(215,185,99, 0.5);
     color:rgb(253,239,239);
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 300px;
     border: 1px solid black;
 
 }
@@ -75,6 +75,7 @@ body, html {
     background: none;
     border: none;
     color: gray;
+    transition: all 0.6s;
 }
 
 .size {
