@@ -11,7 +11,6 @@ body, html {
     color:rgb(98, 145, 197);
     height: 150px;
     width: 300px;
-    border: 1px solid black;
 
 
 }
@@ -21,7 +20,6 @@ body, html {
     color:rgb(71,18,18);
     height: 150px;
     width: 300px;
-    border: 1px solid black;
 
 
     ;
@@ -32,7 +30,7 @@ body, html {
     color:rgb(42,59,144);
     height: 150px;
     width: 300px;
-    border: 1px solid black;
+  
 
     ;
 }
@@ -42,7 +40,6 @@ body, html {
     color:rgb(253,239,239);
     height: 150px;
     width: 300px;
-    border: 1px solid black;
 
 }
 #bg{
@@ -76,6 +73,7 @@ body, html {
     border: none;
     color: gray;
     transition: all 0.6s;
+    opacity: 0;
 }
 
 .size {
