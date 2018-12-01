@@ -10,7 +10,23 @@ body, html {
     background: rgb(140, 104, 150);
     color:rgb(98, 145, 197);
 }
-
+#btn2:hover {
+    cursor: pointer;
+    background: rgb(154,89,89);
+    color:rgb(71,18,18);
+    ;
+}
+#btn3:hover {
+    cursor: pointer;
+    background: rgb(12,13,73);
+    color:rgb(42,59,144);
+    ;
+}
+#btn4:hover {
+    cursor: pointer;
+    background: rgb(215,185,99);
+    color:rgb(253,239,239);
+}
 #bg{
     /* The image used */
     background-image: url("https://cdn.pixabay.com/photo/2015/09/02/12/30/foot-bridge-918476_960_720.jpg");
