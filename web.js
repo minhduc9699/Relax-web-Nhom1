@@ -3,6 +3,8 @@ var DOMbtn = document.getElementsByClassName('btnn');
 // console.log(DOMhello);
 console.log(DOMbtn);
 
+var audio = new Audio('audio_file.mp3');
+audio.play();
 
 function Text1() {
     DOMhello.classList.remove('fadeInRight');
@@ -20,7 +22,6 @@ setTimeout(function(){
                 var DOMbtnn = DOMbtn[i];
                 DOMbtnn.style.opacity = "1";
                 DOMbtnn.addEventListener('click', function(e){
-                    console.log(e.target.id);
                     DOMbtnID = document.getElementById(e.target.id);
                     DOMbtnID.style.height = "100%";
                     DOMbtnID.style.width = "100%";

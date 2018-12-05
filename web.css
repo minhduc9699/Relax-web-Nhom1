@@ -12,7 +12,6 @@ body, html {
     height: 150px;
     width: 300px;
 
-
 }
 #btn2:hover {
     cursor: pointer;
@@ -20,7 +19,6 @@ body, html {
     color:rgb(71,18,18);
     height: 150px;
     width: 300px;
-    ;
 }
 #btn3:hover {
     cursor: pointer;
@@ -28,7 +26,6 @@ body, html {
     color:rgb(42,59,144);
     height: 150px;
     width: 300px;
-    ;
 }
 #btn4:hover {
     cursor: pointer;
@@ -36,7 +33,6 @@ body, html {
     color:rgb(253,239,239);
     height: 150px;
     width: 300px;
-
 }
 #bg{
     /* The image used */
@@ -55,6 +51,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
 }
 
 #hello{
@@ -75,4 +72,9 @@ body, html {
 .size {
     height: 100px;
     width: 200px;
+}
+
+#music {
+    /* display: none; */
+    
 }
