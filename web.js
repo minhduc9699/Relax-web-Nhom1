@@ -26,10 +26,29 @@ setTimeout(function(){
                 DOMbtnn.style.opacity = "1";
                 DOMbtnn.addEventListener('click', function(e){
                     DOMbtnID = document.getElementById(e.target.id);
+                    console.log(e.target.id);
                     DOMbtnID.style.height = "100%";
                     DOMbtnID.style.width = "100%";
-                    var audio = DOMbtnID.getElementById("audio");
-                    audio.play();
+                    if(e.target.id=="btn1")
+                    {
+                        var audio = document.getElementById("AudioForDepression");
+                        audio.play();
+                    }
+                    else if (e.target.id=="btn2")
+                    {
+                        var audio = document.getElementById("AudioForHeartBroken");
+                        audio.play();
+                    }
+                    else if (e.target.id=="btn3")
+                    {
+                        var audio = document.getElementById("AudioForSad");
+                        audio.play();
+                    }
+                    else if (e.target.id=="btn4")
+                    {
+                        var audio = document.getElementById("AudioForStress");
+                        audio.play();
+                    }
                     if(e.target.id == "btn1") {
                         var h = e.target.parentNode;
                         h.querySelector("#btn4").remove();
