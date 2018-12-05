@@ -1,7 +1,6 @@
 var DOMhello = document.getElementById('hello');
 var DOMbtn = document.getElementsByClassName('btnn');
 // console.log(DOMhello);
-console.log(DOMbtn);
 
 var audio = new Audio('audio_file.mp3');
 audio.play();
@@ -25,7 +24,42 @@ setTimeout(function(){
                     DOMbtnID = document.getElementById(e.target.id);
                     DOMbtnID.style.height = "100%";
                     DOMbtnID.style.width = "100%";
-    
+                    var audio = document.getElementById("audio");
+                    audio.play();
+                    if(e.target.id == "btn1") {
+                        var h = e.target.parentNode;
+                        h.querySelector("#btn4").remove();
+                        h.querySelector("#btn2").remove();
+                        h.querySelector("#btn3").remove();
+                        var delaback = document.getElementById('bg');
+                        delaback.style.background='none';
+                    }
+                    if(e.target.id == "btn2") {
+                        var h = e.target.parentNode;
+                        h.querySelector("#btn4").remove();
+                        h.querySelector("#btn1").remove();
+                        h.querySelector("#btn3").remove();
+                        var delaback = document.getElementById('bg');
+                        delaback.style.background='none';
+                    }
+                    if(e.target.id == "btn3") {
+                        var h = e.target.parentNode;
+                        h.querySelector("#btn2").remove();
+                        h.querySelector("#btn1").remove();
+                        h.querySelector("#btn4").remove();
+                        var delaback = document.getElementById('bg');
+                        delaback.style.background='none';
+                    }
+                    if(e.target.id == "btn4") {
+                        var h = e.target.parentNode;
+                        h.querySelector("#btn2").remove();
+                        h.querySelector("#btn1").remove();
+                        h.querySelector("#btn3").remove();
+                        var delaback = document.getElementById('bg');
+                        delaback.style.background='none';
+                    }
+                        
+                        
                 })
             }
         }, 4000)

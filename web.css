@@ -10,8 +10,7 @@ body, html {
     background: rgba(140, 104, 150, 0.5);
     color:rgb(98, 145, 197);
     height: 150px;
-    width: 300px;
-
+    width: 300px; 
 }
 #btn2:hover {
     cursor: pointer;
