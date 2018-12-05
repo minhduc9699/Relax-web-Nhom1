@@ -1,5 +1,9 @@
+
+//DOM AREA
 var DOMhello = document.getElementById('hello');
 var DOMbtn = document.getElementsByClassName('btnn');
+var delaback = document.getElementById('bg');
+
 // console.log(DOMhello);
 
 
@@ -27,7 +31,6 @@ setTimeout(function(){
                         h.querySelector("#btn4").remove();
                         h.querySelector("#btn2").remove();
                         h.querySelector("#btn3").remove();
-                        var delaback = document.getElementById('bg');
                         delaback.style.background='none';
                     }
                     if(e.target.id == "btn2") {
@@ -52,10 +55,10 @@ setTimeout(function(){
                         h.querySelector("#btn1").remove();
                         h.querySelector("#btn3").remove();
                         var delaback = document.getElementById('bg');
-                        delaback.style.background='none';
+                        delaback.style.backgroundImage ="url('https://images-na.ssl-images-amazon.com/images/I/6101Je6svzL._SX425_.jpg')";
                     }
-                        
-                        
+
+                         
                 })
             }
         }, 4000)
