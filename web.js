@@ -28,7 +28,7 @@ setTimeout(function(){
                     DOMbtnID = document.getElementById(e.target.id);
                     DOMbtnID.style.height = "100%";
                     DOMbtnID.style.width = "100%";
-                    var audio = document.getElementById("audio");
+                    var audio = DOMbtnID.getElementById("audio");
                     audio.play();
                     if(e.target.id == "btn1") {
                         var h = e.target.parentNode;
