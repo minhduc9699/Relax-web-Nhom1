@@ -57,8 +57,7 @@ setTimeout(function(){
                         audio.play();
                     }
                     if(e.target.id == "btn1") {
-                        var h = e.target.parentNode;
-                        h.querySelector("#btn4").remove();
+                         h.querySelector("#btn4").remove(); 
                         h.querySelector("#btn2").remove();
                         h.querySelector("#btn3").remove();
                         delaback.style.background='none';
