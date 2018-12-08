@@ -38,6 +38,16 @@ setTimeout(function(){
                         delaback.style.backgroundImage ="url('http://vuing.com/wp-content/uploads/2016/07/beautiful-landscape-galaxy-salar-de-uyuni-milky-way-bolivia-2-800x565.jpg')";
                         var audio = document.getElementById("AudioForDepression");
                         audio.play();
+                        var crediv = document.createElement("div")
+                        crediv.setAttribute("id", "div1");
+                        var content = document.createTextNode("Depression")
+                        crediv.appendChild(content);
+                        var element = document.getElementById("bg");
+                        element.appendChild(crediv);
+                        
+
+
+
                     }
                     else if (e.target.id=="btn2")
                     {
@@ -60,16 +70,7 @@ setTimeout(function(){
                         h.querySelector("#btn3").remove();
                         delaback.style.background='none';
                     }
-                    if (e.target.id=="btn2"){ 
-                        delaback.style.backgroundImage ="url('http://vuing.com/wp-content/uploads/2016/07/beautiful-landscape-galaxy-salar-de-uyuni-milky-way-bolivia-2-800x565.jpg')";
-                    }
-                    if (e.target.id=="btn3"){ 
-                        delaback.style.backgroundImage ="url('http://vuing.com/wp-content/uploads/2016/07/beautiful-landscape-galaxy-salar-de-uyuni-milky-way-bolivia-2-800x565.jpg')";
-                    }
-                    if (e.target.id=="btn4"){ 
-                        delaback.style.backgroundImage ="url('http://vuing.com/wp-content/uploads/2016/07/beautiful-landscape-galaxy-salar-de-uyuni-milky-way-bolivia-2-800x565.jpg')";
-                    }
-
+                    
                          
                 })
             }
