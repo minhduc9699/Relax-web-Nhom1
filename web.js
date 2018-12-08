@@ -36,8 +36,6 @@ setTimeout(function(){
                     DOMhello.innerText = "";
                     if (e.target.id=="btn1"){ 
                         delaback.style.backgroundImage ="url('http://vuing.com/wp-content/uploads/2016/07/beautiful-landscape-galaxy-salar-de-uyuni-milky-way-bolivia-2-800x565.jpg')";
-                    if(e.target.id=="btn1")
-                    {
                         var audio = document.getElementById("AudioForDepression");
                         audio.play();
                     }
