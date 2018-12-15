@@ -77,7 +77,7 @@ setTimeout(function(){
                         crediv.appendChild(content);
                         var element = document.getElementById("bg");
                         element.appendChild(crediv);
-                        DOMdepress = document.getElementById("but3")
+                        DOMsad = document.getElementById("but3")
                         setTimeout(function(){
                             DOMsad.classList.remove('fadeIn');
                             DOMsad.classList.add('fadeOut');
@@ -140,7 +140,7 @@ setTimeout(function(){
                         var newbtn = document.createElement("button");
                         newbtn.setAttribute("id", "btn6");
                         newbtn.setAttribute("class", "border size w3-padding w3-display-bottomright btnn2");
-                        var content = document.createTextNode("dm")
+                        var content = document.createTextNode("1")
                         newbtn.appendChild(content);
                         element.appendChild(newbtn);
                     }
