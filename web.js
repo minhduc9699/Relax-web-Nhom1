@@ -33,17 +33,18 @@ setTimeout(function(){
                     if (e.target.id=="btn1"){ 
                         // Depression
                         // SONG
-                        delaback.style.backgroundImage ="url('http://vuing.com/wp-content/uploads/2016/07/beautiful-landscape-galaxy-salar-de-uyuni-milky-way-bolivia-2-800x565.jpg')";
+                        delaback.style.backgroundImage ="url('http://img.youtube.com/vi/zrhaPkI3zyg/maxresdefault.jpg')";
                         var audio = document.getElementById("AudioForDepression");
                         audio.play();
                         // NEW PAGE
                         var crediv = document.createElement("div")
-                        crediv.setAttribute("id", "but1");
-                        var content = document.createTextNode("Depression")
+                        crediv.setAttribute("id", "but3");
+                        crediv.setAttribute("class", "fadeIn animated")
+                        var content = document.createTextNode("Lần 1")
                         crediv.appendChild(content);
                         var element = document.getElementById("bg");
                         element.appendChild(crediv);
-                        DOMdepress = document.getElementById("but1")
+                        DOMdepress = document.getElementById("but3")
                         setTimeout(function(){
                             DOMdepress.classList.remove('fadeIn');
                             DOMdepress.classList.add('fadeOut');
@@ -66,8 +67,17 @@ setTimeout(function(){
                     else if (e.target.id=="btn2")
                     {
                         // HeartBroken
+                        delaback.style.backgroundImage ="url('http://img.youtube.com/vi/zrhaPkI3zyg/maxresdefault.jpg')";
                         var audio = document.getElementById("AudioForHeartBroken");
                         audio.play();
+                        var crediv = document.createElement("div")
+                        crediv.setAttribute("id", "but3");
+                        crediv.setAttribute("class", "fadeIn animated")
+                        var content = document.createTextNode("Lần 1")
+                        crediv.appendChild(content);
+                        var element = document.getElementById("bg");
+                        element.appendChild(crediv);
+                        DOMdepress = document.getElementById("but3")
                         setTimeout(function(){
                             DOMsad.classList.remove('fadeIn');
                             DOMsad.classList.add('fadeOut');
@@ -136,7 +146,16 @@ setTimeout(function(){
                     }
                     else if (e.target.id=="btn4")
                     {
+                        delaback.style.backgroundImage ="url('http://img.youtube.com/vi/zrhaPkI3zyg/maxresdefault.jpg')";
                         var audio = document.getElementById("AudioForStress");
+                        var crediv = document.createElement("div")
+                        crediv.setAttribute("id", "but3");
+                        crediv.setAttribute("class", "fadeIn animated")
+                        var content = document.createTextNode("Lần 1!")
+                        crediv.appendChild(content);
+                        var element = document.getElementById("bg");
+                        element.appendChild(crediv);
+                        DOMsad = document.getElementById("but3")
                         audio.play();
                         setTimeout(function(){
                             DOMsad.classList.remove('fadeIn');
