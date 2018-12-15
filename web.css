@@ -78,8 +78,9 @@ body, html {
     /* display: none; */
     
 }
-#div1 {
-    color: white;
+#btnd {
+    color:gray;
+    font-weight: bold;
     font-size: 350%;
     font-family: "Courier New", Courier, monospace;
     opacity: 0.2;

@@ -9,9 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/particles.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+    
 </head>
 <body>
-    
     <div id="bg">
         <audio src="DM.mp3" id="AudioForDepression" style="display:none"></audio>
         <audio src="HB.mp3" id="AudioForHeartBroken" style="display:none"></audio>
@@ -20,7 +23,26 @@
         <button id="btn2" class="border size w3-padding w3-display-topright btnn">Heart-broken</button>
         <button id="btn3" class="border size w3-padding w3-display-bottomleft btnn">Sad</button>
         <button id="btn4" class="border size w3-padding w3-display-bottomright btnn">Stress</button>
+        <!-- <div class="grid__item">
+            <button class="particles-button">Send</button>
+        </div> -->
     </div>
-    <script src="web.js"></script>
+
+
+<script>
+// Initialize a new instance of Particles to disintegrate/integrate the button
+var particles = new Particles('.button');
+
+// Disintegrate the button into particles
+particles.disintegrate();
+
+// particles.integrate(); // would do the opposite
+</script>
+<script src='js/anime.min.js'></script>
+<script src='js/particles.js'></script>
+<!-- <script src="anime.min.js"></script> -->
+<!-- <script src="dist/particles.min.js"></script> -->
+<!-- <script src='js/demo.js'></script> -->
+<script src="web.js"></script>
 </body>
 </html>

@@ -7,7 +7,6 @@ var delaback = document.getElementById('bg');
 // console.log(DOMhello);
 
 var audio = new Audio('audio_file.mp3');
-audio.play();
 
 function Text1() {
     DOMhello.classList.remove('fadeInRight');
@@ -38,13 +37,42 @@ setTimeout(function(){
                         delaback.style.backgroundImage ="url('http://vuing.com/wp-content/uploads/2016/07/beautiful-landscape-galaxy-salar-de-uyuni-milky-way-bolivia-2-800x565.jpg')";
                         var audio = document.getElementById("AudioForDepression");
                         audio.play();
-                        var crediv = document.createElement("div")
-                        crediv.setAttribute("id", "div1");
-                        var content = document.createTextNode("Depression")
+                        
+                        var crediv = document.createElement("button")
+                        crediv.setAttribute("id", "btnd");
+                        crediv.setAttribute("class", "button")
+                        
+                        var content = document.createTextNode("Depression");
                         crediv.appendChild(content);
+
+                        crediv.addEventListener("click", function() {
+                            var particles = new Particles('#btnd');
+                            particles.disintegrate();
+                        });
+
+                        // Initialize a new instance of Particles to disintegrate/integrate the button
+                        // var particles = new Particles('.button');
+
+                        // // Disintegrate the button into particles
+                        // particles.disintegrate();
+                        
+                        // var particles = new Particles('#btn_depression');
+                        // Disintegrate the button into particles
+                        // particles.disintegrate();
+
                         var element = document.getElementById("bg");
                         element.appendChild(crediv);
+                        var btnda = document.getElementById("btnd");
+                        console.log(btnda);
                         
+                    // //     btnda.addEventListener('click', function(e){
+                    // //         btnda.setAttribute("class", 'animated fadeOut');
+                    // //         console.log('hhugu');
+                    // //         console.log(btnda);
+                            
+                    // // }
+                    //     );
+
 
 
 
@@ -64,13 +92,7 @@ setTimeout(function(){
                         var audio = document.getElementById("AudioForStress");
                         audio.play();
                     }
-                    if(e.target.id == "btn1") {
-                        var h = e.target.parentNode;
-                        h.querySelector("#btn4").remove();
-                        h.querySelector("#btn2").remove();
-                        h.querySelector("#btn3").remove();
-                        delaback.style.background='none';
-                    }
+               
                     
                          
                 })
