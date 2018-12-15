@@ -57,7 +57,7 @@ setTimeout(function(){
                                     setTimeout(function(){
                                         DOMdepress.innerText = "Lần 3";
                                         DOMdepress.classList.remove('fadeOut');
-                                        DOMdepress.classList.add('fadeIn');
+                                        DOMsad.classList.add('fadeIn');
                                     },2000)
                                 },2000)
                             },2000)

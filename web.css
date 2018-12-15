@@ -100,8 +100,9 @@ body, html {
     /* display: none; */
     
 }
-#div1 {
+#but3 {
     color: white;
+    /* font-weight: bold; */
     font-size: 350%;
     font-family: 'Charmonman', cursive;
     padding-bottom: 400px;
