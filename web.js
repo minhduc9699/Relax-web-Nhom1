@@ -58,7 +58,56 @@ setTimeout(function(){
                                     setTimeout(function(){
                                         DOMdepress.innerText = "Lần 3";
                                         DOMdepress.classList.remove('fadeOut');
-                                        DOMsad.classList.add('fadeIn');
+                                        DOMdepress.classList.add('fadeIn');
+                                        var crediv = document.createElement("button")
+                                        crediv.setAttribute("id", "btnd");
+                                        
+                                        var content = document.createTextNode("Depression");
+                                        crediv.appendChild(content);
+                // important effect
+                                   
+                
+                                        // Initialize a new instance of Particles to disintegrate/integrate the button
+                                        // var particles = new Particles('.button');
+                
+                                        // // Disintegrate the button into particles
+                                        // particles.disintegrate();
+                                        
+                                        // var particles = new Particles('#btn_depression');
+                                        // Disintegrate the button into particles
+                                        // particles.disintegrate();
+                
+                                        var element = document.getElementById("bg");
+                                        element.appendChild(crediv);
+                                        var ac = document.createElement("button")
+                                        ac.setAttribute("id", "btnda");
+                                        ac.setAttribute("class", "button")
+                                        
+                                        var content = document.createTextNode("clickme");
+                                        ac.appendChild(content);
+                // important effect
+                                        ac.addEventListener("click", function() {
+                                            var particles = new Particles('#btnda');
+                                            particles.disintegrate();
+                                            crediv.addEventListener("click", function() {
+                                                var particles = new Particles('#btnd');
+                                                particles.disintegrate();
+                                            });
+                                            crediv.click();
+                                        });
+                
+                                        // Initialize a new instance of Particles to disintegrate/integrate the button
+                                        // var particles = new Particles('.button');
+                
+                                        // // Disintegrate the button into particles
+                                        // particles.disintegrate();
+                                        
+                                        // var particles = new Particles('#btn_depression');
+                                        // Disintegrate the button into particles
+                                        // particles.disintegrate();
+                
+                                        var element = document.getElementById("bg");
+                                        element.appendChild(ac);
                                     },2000)
                                 },2000)
                             },2000)
@@ -125,6 +174,7 @@ setTimeout(function(){
                                         DOMsad.innerText = "Lần 3";
                                         DOMsad.classList.remove('fadeOut');
                                         DOMsad.classList.add('fadeIn');
+                                        
                                     },2000)
                                 },2000)
                             },2000)
