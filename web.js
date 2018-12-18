@@ -62,14 +62,14 @@ setTimeout(function(){
                         var audio = document.getElementById("AudioForDepression");
                         audio.play();
                         // NEW PAGE
-                        var crediv = document.createElement("div")
+                        var crediv = document.createElement("div");
                         crediv.setAttribute("id", "but3");
-                        crediv.setAttribute("class", "fadeIn animated")
-                        var content = document.createTextNode("...")
+                        crediv.setAttribute("class", "fadeIn animated");
+                        var content = document.createTextNode("...");
                         crediv.appendChild(content);
                         var element = document.getElementById("bg");
                         element.appendChild(crediv);
-                        DOMdepress = document.getElementById("but3")
+                        DOMdepress = document.getElementById("but3");
                         setTimeout(function(){
                             DOMdepress.classList.remove('fadeIn');
                             DOMdepress.classList.add('fadeOut');
@@ -133,24 +133,28 @@ setTimeout(function(){
                                                                                                 DOMdepress.innerText = "and let your soul free!";
                                                                                                 DOMdepress.classList.remove('fadeOut');
                                                                                                 DOMdepress.classList.add('fadeIn');
-                                                                                            },2000)
-                                                                                        },2000)
-                                                                                    },2000)
-                                                                                },2000)
-                                                                            },2000)
-                                                                        },2000)
-                                                                    },2000)
-                                                                },2000)
-                                                            },2000)
-                                                        },2000)
-                                                    },2000)
-                                                },2000)
-                                            },2000)
-                                        },2000)
-                                    },2000)
-                                },2000)
-                            },2000)
-                        }, 2000)
+                                                                                                setTimeout(function(){
+                                                                                                    DOMdepress.classList.remove('fadeIn');
+                                                                                                    DOMdepress.classList.add('fadeOut');
+                                                                                                },4000)
+                                                                                            },4000)
+                                                                                        },4000)
+                                                                                    },4000)
+                                                                                },4000)
+                                                                            },4000)
+                                                                        },4000)
+                                                                    },4000)
+                                                                },4000)
+                                                            },4000)
+                                                        },4000)
+                                                    },4000)
+                                                },4000)
+                                            },4000)
+                                        },4000)
+                                    },4000)
+                                },4000)
+                            },4000)
+                        }, 4000)
                     }
                     else if (e.target.id=="btn2")
                     {
@@ -158,28 +162,28 @@ setTimeout(function(){
                         //delaback.style.backgroundImage ="url('http://img.youtube.com/vi/zrhaPkI3zyg/maxresdefault.jpg')";
                         var audio = document.getElementById("AudioForHeartBroken");
                         audio.play();
-                        var crediv = document.createElement("div")
+                        var crediv = document.createElement("div");
                         crediv.setAttribute("id", "but3");
-                        crediv.setAttribute("class", "fadeIn animated")
-                        var content = document.createTextNode("...")
+                        crediv.setAttribute("class", "fadeIn animated");
+                        var content = document.createTextNode("...");
                         crediv.appendChild(content);
                         var element = document.getElementById("bg");
                         element.appendChild(crediv);
-                        DOMsad = document.getElementById("but3")
+                        DOMdepress = document.getElementById("but3");
                         setTimeout(function(){
-                            DOMsad.classList.remove('fadeIn');
-                            DOMsad.classList.add('fadeOut');
+                            DOMdepress.classList.remove('fadeIn');
+                            DOMdepress.classList.add('fadeOut');
                             setTimeout(function(){
-                                DOMsad.innerText = "First, take a deep breathe in...";
-                                DOMsad.classList.remove('fadeOut');
-                                DOMsad.classList.add('fadeIn');
+                                DOMdepress.innerText = "First, take a deep breathe in...";
+                                DOMdepress.classList.remove('fadeOut');
+                                DOMdepress.classList.add('fadeIn');
                                 setTimeout(function(){
-                                    DOMsad.classList.remove('fadeIn');
-                                    DOMsad.classList.a1dd('fadeOut');
+                                    DOMdepress.classList.remove('fadeIn');
+                                    DOMdepress.classList.a1dd('fadeOut');
                                     setTimeout(function(){
-                                        DOMsad.innerText = "and breathe out";
-                                        DOMsad.classList.remove('fadeOut');
-                                        DOMsad.classList.add('fadeIn');
+                                        DOMdepress.innerText = "and breathe out";
+                                        DOMdepress.classList.remove('fadeOut');
+                                        DOMdepress.classList.add('fadeIn');
                                         setTimeout(function(){
                                             DOMdepress.classList.remove('fadeIn');
                                             DOMdepress.classList.add('fadeOut');
@@ -191,46 +195,59 @@ setTimeout(function(){
                                                     DOMdepress.classList.remove('fadeIn');
                                                     DOMdepress.classList.add('fadeOut');
                                                     setTimeout(function(){
-                                                        DOMdepress.innerText = "";
+                                                        DOMdepress.innerText = "Every thing will be okay";
                                                         DOMdepress.classList.remove('fadeOut');
                                                         DOMdepress.classList.add('fadeIn');
-                                                    },2000)
-                                                },2000)
-                                            },2000)
-                                        },2000)
-                                    },2000)
-                                },2000)
-                            },2000)
-                        }, 2000)
+                                                        setTimeout(function(){
+                                                            DOMdepress.classList.remove('fadeIn');
+                                                            DOMdepress.classList.add('fadeOut');
+                                                            setTimeout(function(){
+                                                                DOMdepress.innerText = "And you can overcome it!";
+                                                                DOMdepress.classList.remove('fadeOut');
+                                                                DOMdepress.classList.add('fadeIn');
+                                                                setTimeout(function(){
+                                                                    DOMdepress.classList.remove('fadeIn');
+                                                                    DOMdepress.classList.add('fadeOut');
+                                                                },4000)
+                                                            },4000)
+                                                        },4000)
+                                                    },4000)
+                                                },4000)
+                                            },4000)
+                                        },4000)
+                                    },4000)
+                                },4000)
+                            },4000)
+                        }, 4000)
                     }
                     else if (e.target.id=="btn3")
                     {
                         // NEW PAGE
                         //elaback.style.backgroundImage ="url('http://img.youtube.com/vi/zrhaPkI3zyg/maxresdefault.jpg')";
-                        var audio = document.getElementById("AudioForDepression");
+                        var audio = document.getElementById("AudioForSad");
                         audio.play();
-                        var crediv = document.createElement("div")
+                        var crediv = document.createElement("div");
                         crediv.setAttribute("id", "but3");
-                        crediv.setAttribute("class", "fadeIn animated")
-                        var content = document.createTextNode("...")
+                        crediv.setAttribute("class", "fadeIn animated");
+                        var content = document.createTextNode("...");
                         crediv.appendChild(content);
                         var element = document.getElementById("bg");
                         element.appendChild(crediv);
-                        DOMsad = document.getElementById("but3")
+                        DOMdepress = document.getElementById("but3");
                         setTimeout(function(){
-                            DOMsad.classList.remove('fadeIn');
-                            DOMsad.classList.add('fadeOut');
+                            DOMdepress.classList.remove('fadeIn');
+                            DOMdepress.classList.add('fadeOut');
                             setTimeout(function(){
-                                DOMsad.innerText = "At first, take a deep breath in...";
-                                DOMsad.classList.remove('fadeOut');
-                                DOMsad.classList.add('fadeIn');
+                                DOMdepress.innerText = "At first, take a deep breath in...";
+                                DOMdepress.classList.remove('fadeOut');
+                                DOMdepress.classList.add('fadeIn');
                                 setTimeout(function(){
-                                    DOMsad.classList.remove('fadeIn');
-                                    DOMsad.classList.add('fadeOut');
+                                    DOMdepress.classList.remove('fadeIn');
+                                    DOMdepress.classList.add('fadeOut');
                                     setTimeout(function(){
-                                        DOMsad.innerText = "and breath out!";
-                                        DOMsad.classList.remove('fadeOut');
-                                        DOMsad.classList.add('fadeIn');
+                                        DOMdepress.innerText = "and breath out!";
+                                        DOMdepress.classList.remove('fadeOut');
+                                        DOMdepress.classList.add('fadeIn');
                                         setTimeout(function(){
                                             DOMdepress.classList.remove('fadeIn');
                                             DOMdepress.classList.add('fadeOut');
@@ -266,48 +283,52 @@ setTimeout(function(){
                                                                                 DOMdepress.innerText = "Then you will feel better";
                                                                                 DOMdepress.classList.remove('fadeOut');
                                                                                 DOMdepress.classList.add('fadeIn');
-                                                                            },2000)
-                                                                        },2000)
-                                                                    },2000)
-                                                                },2000)
-                                                            },2000)
-                                                        },2000)
-                                                    },2000)
-                                                },2000)
-                                            },2000)
-                                        },2000)
-                                    },2000)
-                                },2000)
-                            },2000)
-                        }, 2000)
+                                                                                setTimeout(function(){
+                                                                                    DOMdepress.classList.remove('fadeIn');
+                                                                                    DOMdepress.classList.add('fadeOut');
+                                                                                },4000)
+                                                                            },4000)
+                                                                        },4000)
+                                                                    },4000)
+                                                                },4000)
+                                                            },4000)
+                                                        },4000)
+                                                    },4000)
+                                                },4000)
+                                            },4000)
+                                        },4000)
+                                    },4000)
+                                },4000)
+                            },4000)
+                        }, 4000)
                     }
                     else if (e.target.id=="btn4")
                     {
                         //delaback.style.backgroundImage ="url('http://img.youtube.com/vi/zrhaPkI3zyg/maxresdefault.jpg')";
                         var audio = document.getElementById("AudioForStress");
-                        var crediv = document.createElement("div")
+                        var crediv = document.createElement("div");
                         crediv.setAttribute("id", "but3");
-                        crediv.setAttribute("class", "fadeIn animated")
-                        var content = document.createTextNode("...")
+                        crediv.setAttribute("class", "fadeIn animated");
+                        var content = document.createTextNode("...");
                         crediv.appendChild(content);
                         var element = document.getElementById("bg");
                         element.appendChild(crediv);
-                        DOMsad = document.getElementById("but3")
+                        DOMdepress = document.getElementById("but3");
                         audio.play();
                         setTimeout(function(){
-                            DOMsad.classList.remove('fadeIn');
-                            DOMsad.classList.add('fadeOut');
+                            DOMdepress.classList.remove('fadeIn');
+                            DOMdepress.classList.add('fadeOut');
                             setTimeout(function(){
-                                DOMsad.innerText = "First, take a deep breathe in...";
-                                DOMsad.classList.remove('fadeOut');
-                                DOMsad.classList.add('fadeIn');
+                                DOMdepress.innerText = "First, take a deep breathe in...";
+                                DOMdepress.classList.remove('fadeOut');
+                                DOMdepress.classList.add('fadeIn');
                                 setTimeout(function(){
-                                    DOMsad.classList.remove('fadeIn');
-                                    DOMsad.classList.add('fadeOut');
+                                    DOMdepress.classList.remove('fadeIn');
+                                    DOMdepress.classList.add('fadeOut');
                                     setTimeout(function(){
-                                        DOMsad.innerText = "and breath out";
-                                        DOMsad.classList.remove('fadeOut');
-                                        DOMsad.classList.add('fadeIn');
+                                        DOMdepress.innerText = "and breath out";
+                                        DOMdepress.classList.remove('fadeOut');
+                                        DOMdepress.classList.add('fadeIn');
                                         setTimeout(function(){
                                             DOMdepress.classList.remove('fadeIn');
                                             DOMdepress.classList.add('fadeOut');
@@ -322,14 +343,18 @@ setTimeout(function(){
                                                         DOMdepress.innerText = "Relax and you will feel better";
                                                         DOMdepress.classList.remove('fadeOut');
                                                         DOMdepress.classList.add('fadeIn');
-                                                    },2000)
-                                                },2000)
-                                            },2000)
-                                        },2000)
-                                    },2000)
-                                },2000)
-                            },2000)
-                        }, 2000)
+                                                        setTimeout(function(){
+                                                            DOMdepress.classList.remove('fadeIn');
+                                                            DOMdepress.classList.add('fadeOut');
+                                                        },4000)
+                                                    },4000)
+                                                },4000)
+                                            },4000)
+                                        },4000)
+                                    },4000)
+                                },4000)
+                            },4000)
+                        }, 4000)
                     }
                     if(e.target.id == "btn1") {
                          h.querySelector("#btn4").remove(); 
@@ -341,6 +366,6 @@ setTimeout(function(){
                          
                 })
             }
-        }, 1000)
-    }, 1000)
-}, 1000)
+        }, 3000)
+    }, 3000)
+}, 3000)
